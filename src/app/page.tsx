@@ -31,7 +31,7 @@ export default async function Index() {
           fetchPriority="high"
         />
         <div className="wrap hero-content">
-          <div className="eyebrow">DESIGN CONSTRUCTION · ΠΟΛΙΤΙΚΟΣ ΜΗΧΑΝΙΚΟΣ</div>
+          <div className="eyebrow">DESIGN CONSTRUCTION · ΠΟΛΙΤΙΚΟΣ ΜΗΧΑΝΙΚΟΣ ΤΕ ΧΑΛΙΚΙΩΤΗΣ Θ. ΓΕΩΡΓΙΟΣ </div>
           <h1>
             <span>Κατασκευάζουμε</span>
             <br />
@@ -56,29 +56,17 @@ export default async function Index() {
           </div>
         </div>
         <div className="hero-bottom">
-          <a href="#approach">
-            ΓΝΩΡΙΣΤΕ ΤΗ ΦΙΛΟΣΟΦΙΑ ΜΑΣ <ArrowDown size={15} />
-          </a>
-          <span className="hero-sample">Ενδεικτική αρχιτεκτονική απεικόνιση</span>
         </div>
       </section>
       <section className="section" id="approach">
         <Reveal className="wrap intro-grid">
           <div>
-            <div className="eyebrow">Η ΦΙΛΟΣΟΦΙΑ ΜΑΣ</div>
+            <div className="eyebrow">Η ΕΤΑΙΡΕΙΑ ΜΑΣ</div>
             <h2>
-              Κάθε χώρος, μια ιδέα.
-              <br />
-              Κάθε έργο, μια δέσμευση.
+              Γιατί να μας επιλέξετε;
             </h2>
             <p className="copy">
-              Στη DESIGN CONSTRUCTION, βλέπουμε κάθε έργο ως μια ξεχωριστή συνεργασία. Με αφετηρία
-              τις ανάγκες σας, συνδυάζουμε τεχνική σκέψη, λειτουργικό σχεδιασμό και προσοχή στη
-              λεπτομέρεια.
-              <br />
-              <br />
-              Για εμάς, η ουσία βρίσκεται στους χώρους που ανταποκρίνονται στη ζωή σας — σήμερα και
-              αύριο.
+             Η εταιρεία μας, με μια εξειδικευμένη ομάδα έμπειρων μηχανικών και συμβούλων, προσφέρει ολοκληρωμένες τεχνικές υπηρεσίες, αναλαμβάνοντας την κατασκευή και ανακαίνιση οικιστικών κτιρίων. Με εμπειρία σε ιδιωτικά και δημόσια έργα, συνδυάζουμε την τεχνογνωσία, την αισθητική και τη λειτουργικότητα, δημιουργώντας χώρους που ανταποκρίνονται στις ανάγκες σας, σήμερα και στο μέλλον. 
             </p>
             <TextLink to="/about">Γνωρίστε μας καλύτερα</TextLink>
           </div>
@@ -90,7 +78,6 @@ export default async function Index() {
               height={1408}
               loading="lazy"
             />
-            <span className="image-caption">Η ΑΠΛΟΤΗΤΑ ΕΙΝΑΙ ΣΤΗ ΛΕΠΤΟΜΕΡΕΙΑ.</span>
           </div>
         </Reveal>
       </section>
@@ -98,11 +85,9 @@ export default async function Index() {
         <Reveal className="wrap">
           <div className="section-heading">
             <div>
-              <div className="eyebrow">ΑΠΟ ΤΗΝ ΙΔΕΑ ΣΤΗΝ ΥΛΟΠΟΙΗΣΗ</div>
+              <div className="eyebrow">ΟΙ ΥΠΗΡΕΣΙΕΣ ΜΑΣ</div>
               <h2>
-                Ολοκληρωμένη σκέψη.
-                <br />
-                Ουσιαστικές λύσεις.
+              Από την ιδέα στην υλοποίηση.
               </h2>
             </div>
             <TextLink to="/services">Εξερευνήστε τις υπηρεσίες</TextLink>
@@ -120,18 +105,15 @@ export default async function Index() {
               );
             })}
           </div>
-          <p className="sample-note">
-            Ενδεικτικές κατηγορίες υπηρεσιών — το τελικό αντικείμενο θα επιβεβαιωθεί από την
-            εταιρεία.
-          </p>
+
         </Reveal>
       </section>
       <section className="section">
         <Reveal className="wrap">
           <div className="section-heading">
             <div>
-              <div className="eyebrow">ΧΩΡΟΙ ΜΕ ΤΑΥΤΟΤΗΤΑ</div>
-              <h2>Μια ματιά στα έργα.</h2>
+              <div className="eyebrow">ΕΡΓΑ</div>
+              <h2>Μια ματιά στα έργα μας.</h2>
             </div>
             <TextLink to="/projects">Όλα τα έργα</TextLink>
           </div>
