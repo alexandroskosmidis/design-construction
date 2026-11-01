@@ -115,6 +115,22 @@ export function Footer() {
             Χαλικιώτης Θ. Γεώργιος — Πολιτικός Μηχανικός ΤΕ. Μελέτη, κατασκευή και ανακαίνιση με
             συνέπεια στη λεπτομέρεια.
           </p>
+          <div className="footer-map">
+            <iframe
+              src="https://www.google.com/maps?q=Alimos,Athens,Greece&output=embed"
+              title="Χάρτης τοποθεσίας — Άλιμος, Αθήνα"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+            <a
+              className="footer-map-link"
+              href="https://www.google.com/maps/search/?api=1&query=Alimos,Athens,Greece"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Άνοιγμα στο Άλιμος <ArrowUpRight size={12} />
+            </a>
+          </div>
         </div>
         <nav className="footer-nav" aria-label="Πλοήγηση υποσέλιδου">
           <span className="footer-label">ΠΛΟΗΓΗΣΗ</span>
@@ -163,22 +179,6 @@ export function Footer() {
               aria-label="Instagram — DESIGN CONSTRUCTION"
             >
               <Instagram size={16} />
-            </a>
-          </div>
-          <div className="footer-map">
-            <iframe
-              src="https://www.google.com/maps?q=Alimos,Athens,Greece&output=embed"
-              title="Χάρτης τοποθεσίας — Άλιμος, Αθήνα"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-            <a
-              className="footer-map-link"
-              href="https://www.google.com/maps/search/?api=1&query=Alimos,Athens,Greece"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Άνοιγμα στο Άλιμος <ArrowUpRight size={12} />
             </a>
           </div>
         </div>

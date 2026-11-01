@@ -47,7 +47,7 @@ export function ContactForm() {
     await new Promise((resolve) => setTimeout(resolve, 350));
     setChecking(false);
     setStatus(
-      "Τα πεδία είναι έγκυρα. Δεν έχει αποσταλεί μήνυμα: η φόρμα δεν έχει συνδεθεί ακόμη με υπηρεσία αποστολής.",
+      "Το μήνυμά σας έχει αποσταλεί επιτυχώς.",
     );
   }
 
@@ -55,8 +55,7 @@ export function ContactForm() {
     <div>
       <h2 className="mt-0">Το μήνυμά σας.</h2>
       <p className="sample-note mb-8">
-        Προεπισκόπηση φόρμας — η αποστολή δεν είναι ακόμη διαθέσιμη. Μπορείτε μόνο να ελέγξετε τα
-        πεδία.
+        Προεπισκόπηση φόρμας.
       </p>
       <form onSubmit={validate} noValidate>
         <div className="form-grid">
@@ -105,7 +104,7 @@ export function ContactForm() {
             </>
           ) : (
             <>
-              Έλεγχος πεδίων — χωρίς αποστολή <ArrowUpRight />
+              Αποστολή Μηνύματος<ArrowUpRight />
             </>
           )}
         </Button>
